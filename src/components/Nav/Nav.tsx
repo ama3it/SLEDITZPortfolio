@@ -4,21 +4,19 @@ import logoWhite from "../../assets/img/logo-white.png";
 import { useState } from "react";
 
 const Nav = () => {
-  const [mobileNav,setMobileNav]=useState<boolean>(false)
+  const [mobileNav, setMobileNav] = useState<boolean>(false);
 
-  const navToggle=()=>{
+  const navToggle = () => {
+    setMobileNav((prevState) => !prevState);
+  };
 
-    setMobileNav(prevState => !prevState )
-  }
-    
   return (
     <>
       <nav id="topnav" className="defaultscroll is-sticky">
         <div className="container relative">
-            
           <a
             className="logo"
-            href="https://shreethemes.in/muvico/layouts/index.html"
+            href="/"
           >
             <img
               src={logoDark}
@@ -34,7 +32,11 @@ const Nav = () => {
 
           <div className="menu-extras">
             <div className="menu-item">
-              <a className={mobileNav?"navbar-toggle open":"navbar-toggle"} id="isToggle" onClick={navToggle}>
+              <a
+                className={mobileNav ? "navbar-toggle open" : "navbar-toggle"}
+                id="isToggle"
+                onClick={navToggle}
+              >
                 <div className="lines">
                   <span></span>
                   <span></span>
@@ -48,7 +50,7 @@ const Nav = () => {
             <li className="inline mb-0 ">
               <a
                 href=""
-                className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-orange-500 hover:bg-orange-600 border border-orange-500 hover:border-orange-600 text-white"
+                className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-blue-500 hover:bg-blue-600 border border-blue-500 hover:border-blue-600 text-white"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +72,7 @@ const Nav = () => {
             <li className="inline mb-0 mx-1">
               <a
                 href=""
-                className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-orange-500 hover:bg-orange-600 border border-orange-500 hover:border-orange-600 text-white"
+                className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-blue-500 hover:bg-blue-600 border border-blue-500 hover:border-blue-600 text-white"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +95,7 @@ const Nav = () => {
             <li className="inline mb-0 ">
               <a
                 href=""
-                className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-orange-500 hover:bg-orange-600 border border-orange-500 hover:border-orange-600 text-white"
+                className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-blue-500 hover:bg-blue-600 border border-blue-500 hover:border-blue-600 text-white"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -113,323 +115,79 @@ const Nav = () => {
             </li>
           </ul>
 
-          <div id="navigation" style={{display:mobileNav?'block':'none'}}>
+          <div
+            id="navigation"
+            style={{ display: mobileNav ? "block" : "none" }}
+          >
             <ul className="navigation-menu justify-end">
-              <li className="has-submenu parent-menu-item active">
-                <a href="/">Home</a>
-                <span className="menu-arrow"></span>
-                <ul className="submenu">
-                  <li className="active">
-                    <a
-                      href="https://shreethemes.in/muvico/layouts/index.html"
-                      className="sub-menu-item active"
-                    >
-                      Hero One
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://shreethemes.in/muvico/layouts/index-two.html"
-                      className="sub-menu-item"
-                    >
-                      Hero Two
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://shreethemes.in/muvico/layouts/index-three.html"
-                      className="sub-menu-item"
-                    >
-                      Hero Three
-                    </a>
-                  </li>
-                </ul>
+              <li className="active">
+                <a
+                  href="#"
+                  className="sub-menu-item"
+                >
+                  Home
+                </a>
               </li>
 
               <li>
                 <a
-                  href="https://shreethemes.in/muvico/layouts/aboutus.html"
+                  href="#about"
                   className="sub-menu-item"
                 >
                   About Us
                 </a>
               </li>
 
-              <li>
-                <a
-                  href="https://shreethemes.in/muvico/layouts/services.html"
-                  className="sub-menu-item"
-                >
-                  Services
-                </a>
-              </li>
+            
 
-              <li className="has-submenu parent-parent-menu-item">
-                <a href="javascript:void(0)">Portfolio</a>
-                <span className="menu-arrow"></span>
-                <ul className="submenu megamenu">
-                  <li>
-                    <ul>
-                      <li className="megamenu-head">Modern Portfolio</li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-modern-two.html"
-                          className="sub-menu-item"
-                        >
-                          Two Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-modern-three.html"
-                          className="sub-menu-item"
-                        >
-                          Three Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-modern-four.html"
-                          className="sub-menu-item"
-                        >
-                          Four Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-modern-five.html"
-                          className="sub-menu-item"
-                        >
-                          Five Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-modern-six.html"
-                          className="sub-menu-item"
-                        >
-                          Six Column
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <ul>
-                      <li className="megamenu-head">Classic Portfolio</li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-classic-two.html"
-                          className="sub-menu-item"
-                        >
-                          Two Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-classic-three.html"
-                          className="sub-menu-item"
-                        >
-                          Three Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-classic-four.html"
-                          className="sub-menu-item"
-                        >
-                          Four Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-classic-five.html"
-                          className="sub-menu-item"
-                        >
-                          Five Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-classic-six.html"
-                          className="sub-menu-item"
-                        >
-                          Six Column
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <ul>
-                      <li className="megamenu-head">Creative Portfolio</li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-creative-two.html"
-                          className="sub-menu-item"
-                        >
-                          Two Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-creative-three.html"
-                          className="sub-menu-item"
-                        >
-                          Three Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-creative-four.html"
-                          className="sub-menu-item"
-                        >
-                          Four Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-creative-five.html"
-                          className="sub-menu-item"
-                        >
-                          Five Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-creative-six.html"
-                          className="sub-menu-item"
-                        >
-                          Six Column
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <ul>
-                      <li className="megamenu-head">Masonry Portfolio</li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-masonry-two.html"
-                          className="sub-menu-item"
-                        >
-                          Two Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-masonry-three.html"
-                          className="sub-menu-item"
-                        >
-                          Three Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-masonry-four.html"
-                          className="sub-menu-item"
-                        >
-                          Four Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-masonry-five.html"
-                          className="sub-menu-item"
-                        >
-                          Five Column
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-masonry-six.html"
-                          className="sub-menu-item"
-                        >
-                          Six Column
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <ul>
-                      <li className="megamenu-head">Portfolio Detail</li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-detail-one.html"
-                          className="sub-menu-item"
-                        >
-                          Portfolio One
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-detail-two.html"
-                          className="sub-menu-item"
-                        >
-                          Portfolio Two
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-detail-three.html"
-                          className="sub-menu-item"
-                        >
-                          Portfolio Three
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://shreethemes.in/muvico/layouts/portfolio-detail-four.html"
-                          className="sub-menu-item"
-                        >
-                          Portfolio Four
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-
+           
               <li className="has-submenu parent-menu-item">
-                <a href="javascript:void(0)">Blog</a>
+                <a href="#">Services</a>
                 <span className="menu-arrow"></span>
                 <ul className="submenu">
                   <li>
                     <a
-                      href="https://shreethemes.in/muvico/layouts/blogs.html"
+                      href="#"
                       className="sub-menu-item"
                     >
-                      Blogs
+                      Video Editing
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://shreethemes.in/muvico/layouts/blog-detail.html"
+                      href="#"
                       className="sub-menu-item"
                     >
-                      Blog Detail
+                      Photo 
                     </a>
                   </li>
                 </ul>
               </li>
 
+
               <li>
                 <a
-                  href="https://shreethemes.in/muvico/layouts/contactus.html"
+                  href="#blogs"
+                  className="sub-menu-item"
+                >
+                  blogs
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#contact"
                   className="sub-menu-item"
                 >
                   Contact Us
                 </a>
               </li>
+
+
             </ul>
           </div>
-
         </div>
       </nav>
-
-    
     </>
   );
 };

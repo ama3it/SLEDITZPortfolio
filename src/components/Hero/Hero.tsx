@@ -21,14 +21,14 @@ const Hero = () => {
           <div className="relative mt-6">
             <a
               href="#"
-              className="py-2 px-5 inline-flex items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white rounded-xl"
+              className="py-2 px-5 inline-flex items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white rounded-xl"
             >
               Contact Me <i className="mdi mdi-arrow-right ms-2"></i>
             </a>
           </div>
         </div>
 
-        <div className="relative lg:ms-6 before:content-[''] before:absolute before:start-1/2 before:-translate-x-1/2  before:bottom-1/2 before:translate-y-1/2 before:w-[48rem] before:h-[20rem] before:rounded-[18rem] before:rotate-[135deg]  before:bg-orange-500 dark:before:bg-orange-500">
+        <div className="relative lg:ms-6 before:content-[''] before:absolute before:start-1/2 before:-translate-x-1/2  before:bottom-1/2 before:translate-y-1/2 before:w-[48rem] before:h-[20rem] before:rounded-[18rem] before:rotate-[135deg]  before:bg-blue-500 dark:before:bg-blue-500">
           <div className="relative z-1">
             <img src={heroImg} alt="" />
 

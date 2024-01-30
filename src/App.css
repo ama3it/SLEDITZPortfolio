@@ -1894,13 +1894,13 @@ h6 {
 .sidebar-nav>.navbar-item.active .navbar-link,
 .sidebar-nav>.navbar-item:hover .navbar-link {
     --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity))
+    color: rgb(22 62 249 / var(--tw-text-opacity))
 }
 
 .sidebar-nav li.account-menu.active .navbar-link,
 .sidebar-nav li.account-menu:hover .navbar-link {
     --tw-bg-opacity: 1 !important;
-    background-color: rgb(249 115 22 / var(--tw-bg-opacity)) !important;
+    background-color: rgb(22, 62, 249 / var(--tw-bg-opacity)) !important;
     --tw-text-opacity: 1 !important;
     color: rgb(255 255 255 / var(--tw-text-opacity)) !important
 }
@@ -2308,12 +2308,12 @@ h6 {
 
 .hover\:bg-gray-50:hover {
     --tw-bg-opacity: 1 !important;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity)) !important
+    background-color: rgb(22, 62, 249 / var(--tw-bg-opacity)) !important
 }
 
 .hover\:bg-orange-500:hover {
     --tw-bg-opacity: 1 !important;
-    background-color: rgb(249 115 22 / var(--tw-bg-opacity)) !important
+    background-color: rgb(22, 62, 249/ var(--tw-bg-opacity)) !important
 }
 
 .hover\:bg-orange-600:hover {
@@ -2323,7 +2323,7 @@ h6 {
 
 .hover\:text-orange-500:hover {
     --tw-text-opacity: 1 !important;
-    color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+    color: rgb(22, 62, 249 / var(--tw-text-opacity)) !important
 }
 
 .hover\:text-white:hover {
@@ -2504,12 +2504,12 @@ h6 {
 
 :is(.dark .dark\:hover\:border-orange-500:hover) {
     --tw-border-opacity: 1 !important;
-    border-color: rgb(249 115 22 / var(--tw-border-opacity)) !important
+    border-color: rgb(22 62 249/ var(--tw-border-opacity)) !important
 }
 
 :is(.dark .dark\:hover\:bg-orange-500:hover) {
     --tw-bg-opacity: 1 !important;
-    background-color: rgb(249 115 22 / var(--tw-bg-opacity)) !important
+    background-color: rgb(22  62 249 / var(--tw-bg-opacity)) !important
 }
 
 :is(.dark .dark\:hover\:bg-slate-800:hover) {

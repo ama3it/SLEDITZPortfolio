@@ -102,9 +102,9 @@
 #topnav .has-submenu .submenu .has-submenu.active>.submenu-arrow,
 #topnav .has-submenu .submenu .has-submenu:hover>.submenu-arrow {
     border-top-color: transparent;
-    border-inline-end-color: rgb(249 115 22 / var(--tw-border-opacity));
+    border-inline-end-color: rgb(22 115 249 / var(--tw-border-opacity));
     --tw-border-opacity: 1;
-    border-bottom-color: rgb(249 115 22 / var(--tw-border-opacity));
+    border-bottom-color: rgb(22 115 249 / var(--tw-border-opacity));
     border-inline-start-color: transparent
 }
 
@@ -175,7 +175,7 @@
 
 #topnav .navbar-toggle.open span:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(249 115 22 / var(--tw-bg-opacity))
+    background-color: rgb(22 115 249 / var(--tw-bg-opacity))
 }
 
 #topnav .navbar-toggle .navigation-menu>li>a:hover,
@@ -295,19 +295,19 @@
 #topnav .navigation-menu>li>a:active,
 #topnav .navigation-menu>li>a:hover {
     --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity))
+    color: rgb(22 115 249/ var(--tw-text-opacity))
 }
 
 #topnav .navigation-menu>li.active>a,
 #topnav .navigation-menu>li:hover>a {
     --tw-text-opacity: 1 !important;
-    color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+    color: rgb(22 115 249 / var(--tw-text-opacity)) !important
 }
 
 :is(.dark #topnav .navigation-menu > li.active > a),
 :is(.dark #topnav .navigation-menu > li:hover > a) {
     --tw-text-opacity: 1 !important;
-    color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+    color: rgb(22 115 249 / var(--tw-text-opacity)) !important
 }
 
 #topnav .navigation-menu>li .submenu.megamenu li .megamenu-head {
@@ -408,15 +408,15 @@
 #topnav.scroll .navigation-menu>li.active>a,
 #topnav.scroll .navigation-menu>li:hover>a {
     --tw-text-opacity: 1;
-    color: rgb(249 115 22 / var(--tw-text-opacity))
+    color: rgb(22 115 249 / var(--tw-text-opacity))
 }
 
 #topnav.scroll .navigation-menu>li.active>.menu-arrow,
 #topnav.scroll .navigation-menu>li:hover>.menu-arrow {
     border-top-color: transparent !important;
-    border-inline-end-color: rgb(249 115 22 / var(--tw-border-opacity)) !important;
+    border-inline-end-color: rgb(22 115 249/ var(--tw-border-opacity)) !important;
     --tw-border-opacity: 1 !important;
-    border-bottom-color: rgb(249 115 22 / var(--tw-border-opacity)) !important;
+    border-bottom-color: rgb(22 115 249 / var(--tw-border-opacity)) !important;
     border-inline-start-color: transparent !important
 }
 
@@ -467,29 +467,29 @@
 #topnav.nav-sticky .navigation-menu.nav-light>li.active>.menu-arrow,
 #topnav.nav-sticky .navigation-menu.nav-light>li:hover>.menu-arrow {
     border-top-color: transparent !important;
-    border-inline-end-color: rgb(249 115 22 / var(--tw-border-opacity)) !important;
+    border-inline-end-color: rgb(22 115 249/ var(--tw-border-opacity)) !important;
     --tw-border-opacity: 1 !important;
-    border-bottom-color: rgb(249 115 22 / var(--tw-border-opacity)) !important;
+    border-bottom-color: rgb(22 115 249 / var(--tw-border-opacity)) !important;
     border-inline-start-color: transparent !important
 }
 
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li.active > .menu-arrow),
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li:hover > .menu-arrow) {
-    border-inline-end-color: rgb(249 115 22 / var(--tw-border-opacity)) !important;
+    border-inline-end-color: rgb(22 115 249 / var(--tw-border-opacity)) !important;
     --tw-border-opacity: 1 !important;
-    border-bottom-color: rgb(249 115 22 / var(--tw-border-opacity)) !important
+    border-bottom-color: rgb(22 115 249 / var(--tw-border-opacity)) !important
 }
 
 #topnav.nav-sticky .navigation-menu.nav-light>li.active>a,
 #topnav.nav-sticky .navigation-menu.nav-light>li:hover>a {
     --tw-text-opacity: 1 !important;
-    color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+    color: rgb(22 115 249/ var(--tw-text-opacity)) !important
 }
 
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li.active > a),
 :is(.dark #topnav.nav-sticky .navigation-menu.nav-light > li:hover > a) {
     --tw-text-opacity: 1 !important;
-    color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+    color: rgb(22 115 249 / var(--tw-text-opacity)) !important
 }
 
 #topnav.nav-sticky .navigation-menu.nav-light .has-submenu .menu-arrow {
@@ -634,12 +634,12 @@
 
     #topnav .navigation-menu>li .submenu li a:hover {
         --tw-text-opacity: 1 !important;
-        color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+        color: rgb(22 115 249 / var(--tw-text-opacity)) !important
     }
 
     :is(.dark #topnav .navigation-menu > li .submenu li a:hover) {
         --tw-text-opacity: 1 !important;
-        color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+        color: rgb(22 115 249 / var(--tw-text-opacity)) !important
     }
 
     #topnav .navigation-menu>li .submenu li ul {
@@ -698,22 +698,22 @@
 
     #topnav .navigation-menu>li:hover>.menu-arrow {
         border-top-color: transparent !important;
-        border-inline-end-color: rgb(249 115 22 / var(--tw-border-opacity)) !important;
+        border-inline-end-color: rgb(22 115 249 / var(--tw-border-opacity)) !important;
         --tw-border-opacity: 1 !important;
-        border-bottom-color: rgb(249 115 22 / var(--tw-border-opacity)) !important;
+        border-bottom-color: rgb(22 115 249/ var(--tw-border-opacity)) !important;
         border-inline-start-color: transparent !important
     }
 
     #topnav .navigation-menu>li.active>a,
     #topnav .navigation-menu>li:hover>a {
         --tw-text-opacity: 1 !important;
-        color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+        color: rgb(22 115 249 / var(--tw-text-opacity)) !important
     }
 
     :is(.dark #topnav .navigation-menu > li.active > a),
     :is(.dark #topnav .navigation-menu > li:hover > a) {
         --tw-text-opacity: 1 !important;
-        color: rgb(249 115 22 / var(--tw-text-opacity)) !important
+        color: rgb(22 115 249 / var(--tw-text-opacity)) !important
     }
 
     #topnav .navigation-menu>li.last-elements .submenu {
@@ -926,7 +926,7 @@
     #topnav .navigation-menu>li.has-submenu.open>a,
     #topnav .navigation-menu>li>a:hover {
         --tw-text-opacity: 1;
-        color: rgb(249 115 22 / var(--tw-text-opacity))
+        color: rgb(22 115 249 / var(--tw-text-opacity))
     }
 
     #topnav .menu-extras .menu-item {
