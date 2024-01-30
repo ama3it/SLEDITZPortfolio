@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav id="topnav" className="defaultscroll is-sticky">
+      <nav id="topnav" className="defaultscroll is-sticky nav-sticky">
         <div className="container relative">
           <a
             className="logo"

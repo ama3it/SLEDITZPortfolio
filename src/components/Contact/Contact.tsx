@@ -1,101 +1,10 @@
+import About from "../About/About";
 import Projects from "../Projects/Projects";
 
 const Contact = () => {
   return (
     <section className="relative overflow-hidden md:py-24 py-16">
-      <div className="container relative md:pb-24 pb-16">
-        <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
-          <div className="lg:col-span-5 md:col-span-6">
-            <div className="relative">
-              <div className="relative flex justify-end">
-                <img
-                  src="assets/img/about.jpg"
-                  className="lg:w-[400px] w-[280px] rounded-xl shadow dark:shadow-gray-700"
-                  alt=""
-                />
-                <div className="absolute top-0 translate-y-2/4 start-0 text-center">
-                  <a
-                    href="#!"
-                    data-type="youtube"
-                    data-id="S_CGed6E610"
-                    className="lightbox h-20 w-20 rounded-full shadow-lg shadow-slate-100 dark:shadow-slate-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-orange-600"
-                  >
-                    <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
-                  </a>
-                </div>
-              </div>
-              <div className="absolute md:-start-5 start-0 -bottom-16">
-                <img
-                  src="assets/img/about2.jpg"
-                  className="lg:w-[280px] w-[200px] border-8 border-white dark:border-slate-900 rounded-xl"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:col-span-7 md:col-span-6">
-            <div className="lg:ms-5">
-              <h6 className="text-orange-500 text-sm font-medium uppercase mb-2">
-                About us
-              </h6>
-              <h3 className="mb-4 md:text-2xl text-xl font-medium">
-                Better Design <br /> Better Experience
-              </h3>
-
-              <p className="text-slate-400 dark:text-white/60 max-w-xl">
-                Obviously I'm a Web Designer. Experienced with all stages of the
-                development cycle for dynamic web projects.
-              </p>
-
-              <div className="mt-4">
-                <div className="flex justify-between mb-2">
-                  <span className="text-slate-400 dark:text-white/60">
-                    WordPress
-                  </span>
-                  <span className="text-slate-400 dark:text-white/60">84%</span>
-                </div>
-                <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]">
-                  <div
-                    className="bg-orange-500 h-[6px] rounded-full"
-                    style={{ width: "84%" }}
-                  ></div>
-                </div>
-              </div>
-
-              <div className="mt-4">
-                <div className="flex justify-between mb-2">
-                  <span className="text-slate-400 dark:text-white/60">
-                    JavaScript
-                  </span>
-                  <span className="text-slate-400 dark:text-white/60">79%</span>
-                </div>
-                <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]">
-                  <div
-                    className="bg-orange-500 h-[6px] rounded-full"
-                    style={{ width: "79%" }}
-                  ></div>
-                </div>
-              </div>
-
-              <div className="mt-4">
-                <div className="flex justify-between mb-2">
-                  <span className="text-slate-400 dark:text-white/60">
-                    HTML
-                  </span>
-                  <span className="text-slate-400 dark:text-white/60">95%</span>
-                </div>
-                <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]">
-                  <div
-                    className="bg-orange-500 h-[6px] rounded-full"
-                    style={{ width: "95%" }}
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     <About/>
 
       <div className="container relative md:mt-24 mt-16">
         <div className="grid grid-cols-1 pb-6 text-center">
@@ -120,11 +29,11 @@ const Contact = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="feather feather-hexagon h-28 w-28 fill-orange-500/5 mx-auto rotate-[30deg]"
+                className="feather feather-hexagon h-28 w-28 fill-blue-500/5 mx-auto rotate-[30deg]"
               >
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
               </svg>
-              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-orange-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                 <img
                   src="assets/img/color-swatches.svg"
                   className="h-8"
@@ -136,7 +45,7 @@ const Contact = () => {
             <div className="mt-6">
               <a
                 href="https://shreethemes.in/muvico/layouts/services.html"
-                className="text-lg font-medium duration-500 hover:text-orange-500"
+                className="text-lg font-medium duration-500 hover:text-blue-500"
               >
                 Grow Your Business
               </a>
@@ -159,11 +68,11 @@ const Contact = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="feather feather-hexagon h-28 w-28 fill-orange-500/5 mx-auto rotate-[30deg]"
+                className="feather feather-hexagon h-28 w-28 fill-blue-500/5 mx-auto rotate-[30deg]"
               >
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
               </svg>
-              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-orange-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                 <img
                   src="assets/img/decent-work-and-economic-growth.svg"
                   className="h-8"
@@ -175,7 +84,7 @@ const Contact = () => {
             <div className="mt-6">
               <a
                 href="https://shreethemes.in/muvico/layouts/services.html"
-                className="text-lg font-medium duration-500 hover:text-orange-500"
+                className="text-lg font-medium duration-500 hover:text-blue-500"
               >
                 Drive More Sales
               </a>
@@ -198,11 +107,11 @@ const Contact = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="feather feather-hexagon h-28 w-28 fill-orange-500/5 mx-auto rotate-[30deg]"
+                className="feather feather-hexagon h-28 w-28 fill-blue-500/5 mx-auto rotate-[30deg]"
               >
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
               </svg>
-              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-orange-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                 <img
                   src="assets/img/flip-horizontal-arrow-1.svg"
                   className="h-8"
@@ -214,7 +123,7 @@ const Contact = () => {
             <div className="mt-6">
               <a
                 href="https://shreethemes.in/muvico/layouts/services.html"
-                className="text-lg font-medium duration-500 hover:text-orange-500"
+                className="text-lg font-medium duration-500 hover:text-blue-500"
               >
                 Handled By Expert
               </a>
@@ -237,11 +146,11 @@ const Contact = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="feather feather-hexagon h-28 w-28 fill-orange-500/5 mx-auto rotate-[30deg]"
+                className="feather feather-hexagon h-28 w-28 fill-blue-500/5 mx-auto rotate-[30deg]"
               >
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
               </svg>
-              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-orange-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                 <img src="assets/img/layers-1.svg" className="h-8" alt="" />
               </div>
             </div>
@@ -249,7 +158,7 @@ const Contact = () => {
             <div className="mt-6">
               <a
                 href="https://shreethemes.in/muvico/layouts/services.html"
-                className="text-lg font-medium duration-500 hover:text-orange-500"
+                className="text-lg font-medium duration-500 hover:text-blue-500"
               >
                 Discussion For Idea
               </a>
@@ -272,11 +181,11 @@ const Contact = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="feather feather-hexagon h-28 w-28 fill-orange-500/5 mx-auto rotate-[30deg]"
+                className="feather feather-hexagon h-28 w-28 fill-blue-500/5 mx-auto rotate-[30deg]"
               >
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
               </svg>
-              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-orange-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                 <img
                   src="assets/img/pictures-folder-memories.svg"
                   className="h-8"
@@ -288,7 +197,7 @@ const Contact = () => {
             <div className="mt-6">
               <a
                 href="https://shreethemes.in/muvico/layouts/services.html"
-                className="text-lg font-medium duration-500 hover:text-orange-500"
+                className="text-lg font-medium duration-500 hover:text-blue-500"
               >
                 Increase Conversion
               </a>
@@ -311,11 +220,11 @@ const Contact = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="feather feather-hexagon h-28 w-28 fill-orange-500/5 mx-auto rotate-[30deg]"
+                className="feather feather-hexagon h-28 w-28 fill-blue-500/5 mx-auto rotate-[30deg]"
               >
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
               </svg>
-              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-orange-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+              <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                 <img
                   src="assets/img/production-belt-time.svg"
                   className="h-8"
@@ -327,7 +236,7 @@ const Contact = () => {
             <div className="mt-6">
               <a
                 href="https://shreethemes.in/muvico/layouts/services.html"
-                className="text-lg font-medium duration-500 hover:text-orange-500"
+                className="text-lg font-medium duration-500 hover:text-blue-500"
               >
                 Sales Growth Idea
               </a>
@@ -342,8 +251,7 @@ const Contact = () => {
 
       {/* Services Demo */}
 
-     <Projects/>
-
+      <Projects />
 
       {/* 
         <div className="container relative lg:mt-24 mt-16">
@@ -362,7 +270,7 @@ const Contact = () => {
                                 alt="">
 
                             <div className="ps-3">
-                                <a href="" className="text-[16px] font-medium hover:text-orange-500 duration-500">Thomas
+                                <a href="" className="text-[16px] font-medium hover:text-blue-500 duration-500">Thomas
                                     Israel</a>
                                 <p className="text-slate-400 dark:text-white/60">C.E.O</p>
                             </div>
@@ -387,7 +295,7 @@ const Contact = () => {
                                 alt="">
 
                             <div className="ps-3">
-                                <a href="" className="text-[16px] font-medium hover:text-orange-500 duration-500">Barbara
+                                <a href="" className="text-[16px] font-medium hover:text-blue-500 duration-500">Barbara
                                     McIntosh</a>
                                 <p className="text-slate-400 dark:text-white/60">C.E.O</p>
                             </div>
@@ -415,7 +323,7 @@ const Contact = () => {
                                 alt="">
 
                             <div className="ps-3">
-                                <a href="" className="text-[16px] font-medium hover:text-orange-500 duration-500">Carl
+                                <a href="" className="text-[16px] font-medium hover:text-blue-500 duration-500">Carl
                                     Oliver</a>
                                 <p className="text-slate-400 dark:text-white/60">C.E.O</p>
                             </div>
@@ -442,7 +350,7 @@ const Contact = () => {
                                 alt="">
 
                             <div className="ps-3">
-                                <a href="" className="text-[16px] font-medium hover:text-orange-500 duration-500">Jill
+                                <a href="" className="text-[16px] font-medium hover:text-blue-500 duration-500">Jill
                                     Webb</a>
                                 <p className="text-slate-400 dark:text-white/60">C.E.O</p>
                             </div>
@@ -471,7 +379,7 @@ const Contact = () => {
                                 alt="">
 
                             <div className="ps-3">
-                                <a href="" className="text-[16px] font-medium hover:text-orange-500 duration-500">Barbara
+                                <a href="" className="text-[16px] font-medium hover:text-blue-500 duration-500">Barbara
                                     McIntosh</a>
                                 <p className="text-slate-400 dark:text-white/60">C.E.O</p>
                             </div>
@@ -497,7 +405,7 @@ const Contact = () => {
                                 alt="">
 
                             <div className="ps-3">
-                                <a href="" className="text-[16px] font-medium hover:text-orange-500 duration-500">Janisha
+                                <a href="" className="text-[16px] font-medium hover:text-blue-500 duration-500">Janisha
                                     Doll</a>
                                 <p className="text-slate-400 dark:text-white/60">C.E.O</p>
                             </div>
@@ -538,7 +446,7 @@ const Contact = () => {
                             <ul
                                 className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
                                 <li className=""><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -547,7 +455,7 @@ const Contact = () => {
                                             </path>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -557,7 +465,7 @@ const Contact = () => {
                                             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -572,7 +480,7 @@ const Contact = () => {
                         </div>
 
                         <div className="content mt-3">
-                            <a href="" className="text-lg font-medium hover:text-orange-500 duration-500">Jack John</a>
+                            <a href="" className="text-lg font-medium hover:text-blue-500 duration-500">Jack John</a>
                             <p className="text-slate-400 dark:text-white/60">Designer</p>
                         </div>
                     </div>
@@ -586,7 +494,7 @@ const Contact = () => {
                             <ul
                                 className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
                                 <li className=""><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -595,7 +503,7 @@ const Contact = () => {
                                             </path>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -605,7 +513,7 @@ const Contact = () => {
                                             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -620,7 +528,7 @@ const Contact = () => {
                         </div>
 
                         <div className="content mt-3">
-                            <a href="" className="text-lg font-medium hover:text-orange-500 duration-500">Krista John</a>
+                            <a href="" className="text-lg font-medium hover:text-blue-500 duration-500">Krista John</a>
                             <p className="text-slate-400 dark:text-white/60">Designer</p>
                         </div>
                     </div>
@@ -634,7 +542,7 @@ const Contact = () => {
                             <ul
                                 className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
                                 <li className=""><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -643,7 +551,7 @@ const Contact = () => {
                                             </path>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -653,7 +561,7 @@ const Contact = () => {
                                             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -668,7 +576,7 @@ const Contact = () => {
                         </div>
 
                         <div className="content mt-3">
-                            <a href="" className="text-lg font-medium hover:text-orange-500 duration-500">Roger Jackson</a>
+                            <a href="" className="text-lg font-medium hover:text-blue-500 duration-500">Roger Jackson</a>
                             <p className="text-slate-400 dark:text-white/60">Designer</p>
                         </div>
                     </div>
@@ -682,7 +590,7 @@ const Contact = () => {
                             <ul
                                 className="list-none absolute top-1/2 -translate-y-1/2 -end-20 group-hover:end-5 transition-all duration-500 ease-in-out">
                                 <li className=""><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -691,7 +599,7 @@ const Contact = () => {
                                             </path>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -701,7 +609,7 @@ const Contact = () => {
                                             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                                         </svg></a></li>
                                 <li className="mt-1"><a href=""
-                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white"><svg
+                                        className="h-8 w-8 inline-flex items-center text-center justify-center text-base font-normal tracking-wide border align-middle transition duration-500 ease-in-out rounded-full bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -716,7 +624,7 @@ const Contact = () => {
                         </div>
 
                         <div className="content mt-3">
-                            <a href="" className="text-lg font-medium hover:text-orange-500 duration-500">Johnny English</a>
+                            <a href="" className="text-lg font-medium hover:text-blue-500 duration-500">Johnny English</a>
                             <p className="text-slate-400 dark:text-white/60">Designer</p>
                         </div>
                     </div>
@@ -743,7 +651,7 @@ const Contact = () => {
                             className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
                             <img src="assets/img/01.jpg" className="h-9 w-9 rounded-xl" alt=""/>
                             <div className="ms-2">
-                                <a href="" className="text-white hover:text-orange-500 text-[15px]">Calvin Carlo</a>
+                                <a href="" className="text-white hover:text-blue-500 text-[15px]">Calvin Carlo</a>
                                 <p className="text-white/70 text-sm">5 Min Read</p>
                             </div>
                         </div>
@@ -751,14 +659,14 @@ const Contact = () => {
 
                     <div className="p-4">
                         <a href="https://shreethemes.in/muvico/layouts/blog-detail.html"
-                            className="title text-lg font-medium hover:text-orange-500 duration-500">Design your apps in
+                            className="title text-lg font-medium hover:text-blue-500 duration-500">Design your apps in
                             your own way</a>
                         <p className="text-slate-400 dark:text-white/60 mt-3">The phrasal sequence of the is now so that
                             many campaign and benefit</p>
 
                         <div className="mt-3">
                             <a href="https://shreethemes.in/muvico/layouts/blog-detail.html"
-                                className="hover:text-orange-500">Read More <i
+                                className="hover:text-blue-500">Read More <i
                                     className="mdi mdi-arrow-right align-middle"></i></a>
                         </div>
                     </div>
@@ -774,7 +682,7 @@ const Contact = () => {
                             className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
                             <img src="assets/img/01.jpg" className="h-9 w-9 rounded-xl" alt="">
                             <div className="ms-2">
-                                <a href="" className="text-white hover:text-orange-500 text-[15px]">Calvin Carlo</a>
+                                <a href="" className="text-white hover:text-blue-500 text-[15px]">Calvin Carlo</a>
                                 <p className="text-white/70 text-sm">5 Min Read</p>
                             </div>
                         </div>
@@ -782,14 +690,14 @@ const Contact = () => {
 
                     <div className="p-4">
                         <a href="https://shreethemes.in/muvico/layouts/blog-detail.html"
-                            className="title text-lg font-medium hover:text-orange-500 duration-500">How apps is changing
+                            className="title text-lg font-medium hover:text-blue-500 duration-500">How apps is changing
                             the IT world</a>
                         <p className="text-slate-400 dark:text-white/60 mt-3">The phrasal sequence of the is now so that
                             many campaign and benefit</p>
 
                         <div className="mt-3">
                             <a href="https://shreethemes.in/muvico/layouts/blog-detail.html"
-                                className="hover:text-orange-500">Read More <i
+                                className="hover:text-blue-500">Read More <i
                                     className="mdi mdi-arrow-right align-middle"></i></a>
                         </div>
                     </div>
@@ -805,7 +713,7 @@ const Contact = () => {
                             className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
                             <img src="assets/img/01.jpg" className="h-9 w-9 rounded-xl" alt="">
                             <div className="ms-2">
-                                <a href="" className="text-white hover:text-orange-500 text-[15px]">Calvin Carlo</a>
+                                <a href="" className="text-white hover:text-blue-500 text-[15px]">Calvin Carlo</a>
                                 <p className="text-white/70 text-sm">5 Min Read</p>
                             </div>
                         </div>
@@ -813,14 +721,14 @@ const Contact = () => {
 
                     <div className="p-4">
                         <a href="https://shreethemes.in/muvico/layouts/blog-detail.html"
-                            className="title text-lg font-medium hover:text-orange-500 duration-500">Smartest Applications
+                            className="title text-lg font-medium hover:text-blue-500 duration-500">Smartest Applications
                             for Business</a>
                         <p className="text-slate-400 dark:text-white/60 mt-3">The phrasal sequence of the is now so that
                             many campaign and benefit</p>
 
                         <div className="mt-3">
                             <a href="https://shreethemes.in/muvico/layouts/blog-detail.html"
-                                className="hover:text-orange-500">Read More <i
+                                className="hover:text-blue-500">Read More <i
                                     className="mdi mdi-arrow-right align-middle"></i></a>
                         </div>
                     </div>
@@ -850,7 +758,7 @@ const Contact = () => {
                       name="name"
                       id="name"
                       type="text"
-                      className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-orange-500/50 dark:focus:border-orange-500/50 focus:ring-0 mt-2"
+                      className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
                       placeholder="Name :"
                     />
                   </div>
@@ -863,7 +771,7 @@ const Contact = () => {
                       name="email"
                       id="email"
                       type="email"
-                      className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-orange-500/50 dark:focus:border-orange-500/50 focus:ring-0 mt-2"
+                      className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
                       placeholder="Email :"
                     />
                   </div>
@@ -877,7 +785,7 @@ const Contact = () => {
                     <input
                       name="subject"
                       id="subject"
-                      className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-orange-500/50 dark:focus:border-orange-500/50 focus:ring-0 mt-2"
+                      className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
                       placeholder="Subject :"
                     />
                   </div>
@@ -892,7 +800,7 @@ const Contact = () => {
                     <textarea
                       name="comments"
                       id="comments"
-                      className="form-input w-full py-2 px-3 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-orange-500/50 dark:focus:border-orange-500/50 focus:ring-0 mt-2 textarea h-28"
+                      className="form-input w-full py-2 px-3 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2 textarea h-28"
                       placeholder="Message :"
                     />
                   </div>
@@ -901,7 +809,7 @@ const Contact = () => {
                   type="submit"
                   id="submit"
                   name="send"
-                  className="py-2 px-5 inline-block font-normal tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white rounded-xl"
+                  className="py-2 px-5 inline-block font-normal tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white rounded-xl"
                 >
                   Send Message
                 </button>
