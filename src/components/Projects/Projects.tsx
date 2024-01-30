@@ -98,7 +98,7 @@ const Projects = () => {
   return (
     <div className="container relative md:mt-24 mt-16">
       <div className="grid grid-cols-1 pb-6 text-center">
-        <h3 className="mb-6 md:text-2xl text-xl font-medium">My Projects</h3>
+        <h3 className="mb-6 md:text-2xl text-xl font-medium">My Works</h3>
 
         <p className="text-slate-400 dark:text-white/60 max-w-xl mx-auto">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
