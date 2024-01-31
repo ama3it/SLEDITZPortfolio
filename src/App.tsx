@@ -8,6 +8,7 @@ import Nav from "./components/Nav/Nav";
 import Projects from "./components/Projects/Projects";
 import Review from "./components/Review/Review";
 import Services from "./components/Services/Services";
+import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Blog />
         <Contact/>
       </section>
+      <ThemeToggle/>
       <Footer />
     </div>
   );
