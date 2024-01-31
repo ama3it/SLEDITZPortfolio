@@ -1,22 +1,25 @@
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 
-import contactus from "../../assets/img/contactus.svg"
+import contactus from "../../assets/img/contactus.svg";
 import Services from "../Services/Services";
 import Review from "../Review/Review";
+import Blog from "../Blog/Blog";
 
 const Contact = () => {
   return (
-    <section className="relative overflow-hidden md:py-24 py-16">
-      <About />
-      <Services/>
-      <Projects />
 
-       <Review/>
 
-      <div className="container relative md:mt-24 mt-16">
+      <div id="contact" className="container relative md:mt-24 mt-16">
         <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
-          <img src={contactus} alt="" />
+          <div className="w-full h-full ">
+            <div id="embedded-map-display" className="h-full w-full">
+              <iframe
+                className="rounded-xl h-full w-full border-solid border-2 "
+                src="https://www.google.com/maps/embed/v1/place?q=Jasora+High+School+Road,+Jiakhali,+West+Bengal,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+          </div>
 
           <div className="lg:ms-5">
             <div className="bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-gray-700 p-6">
@@ -30,27 +33,27 @@ const Contact = () => {
                 <div className="grid lg:grid-cols-12 lg:gap-6">
                   <div className="lg:col-span-6 mb-5">
                     <label htmlFor="name" className="form-label font-medium">
-                      Your Name:
+                      Your Name
                     </label>
                     <input
                       name="name"
                       id="name"
                       type="text"
                       className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
-                      placeholder="Name :"
+                      placeholder="Name "
                     />
                   </div>
 
                   <div className="lg:col-span-6 mb-5">
                     <label htmlFor="email" className="form-label font-medium">
-                      Your Email:
+                      Your Email
                     </label>
                     <input
                       name="email"
                       id="email"
                       type="email"
                       className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
-                      placeholder="Email :"
+                      placeholder="Email "
                     />
                   </div>
                 </div>
@@ -58,13 +61,13 @@ const Contact = () => {
                 <div className="grid grid-cols-1">
                   <div className="mb-5">
                     <label htmlFor="subject" className="form-label font-medium">
-                      Your Question:
+                      Your Question
                     </label>
                     <input
                       name="subject"
                       id="subject"
                       className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
-                      placeholder="Subject :"
+                      placeholder="Subject "
                     />
                   </div>
 
@@ -73,13 +76,13 @@ const Contact = () => {
                       htmlFor="comments"
                       className="form-label font-medium"
                     >
-                      Your Comment:
+                      Your Comment
                     </label>
                     <textarea
                       name="comments"
                       id="comments"
                       className="form-input w-full py-2 px-3 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2 textarea h-28"
-                      placeholder="Message :"
+                      placeholder="Message "
                     />
                   </div>
                 </div>
@@ -96,8 +99,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      
-    </section>
+   
   );
 };
 
