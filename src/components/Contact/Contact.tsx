@@ -1,16 +1,12 @@
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 
+import contactus from "../../assets/img/contactus.svg"
 
 const Contact = () => {
   return (
     <section className="relative overflow-hidden md:py-24 py-16">
       <About />
-
-    
-
-      {/* Services Demo */}
-
       <Projects />
 
       {/* 
@@ -498,7 +494,7 @@ const Contact = () => {
 
       <div className="container relative md:mt-24 mt-16">
         <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
-          <img src="assets/img/contact.svg" alt="" />
+          <img src={contactus} alt="" />
 
           <div className="lg:ms-5">
             <div className="bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-gray-700 p-6">
@@ -578,6 +574,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };
