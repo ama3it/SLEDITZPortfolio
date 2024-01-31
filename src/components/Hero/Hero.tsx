@@ -33,23 +33,21 @@ const Hero = () => {
             <img src={heroImg} alt="" />
 
             <div className="absolute lg:bottom-20 -bottom-5 md:-start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-              <span className="text-3xl font-medium mb-0">
-                <span className="counter-value font-bold" data-target="125">
-                  125
-                </span>
-                +
+              <span className="font-semibold mb-0">
+               Graphics Designer
               </span>
               <h6 className="text-sm text-slate-400 mt-1">
-                Project Completed
+              5+ Years Experience
+               
               </h6>
             </div>
-
+{/* 
             <div className="absolute md:top-20 top-32 md:-end-10 -end-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
               <h6 className="font-semibold">Web Designer</h6>
               <h6 className="text-sm text-slate-400 mt-1">
                 7+ Years Experience
               </h6>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
