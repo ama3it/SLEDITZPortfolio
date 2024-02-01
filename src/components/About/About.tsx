@@ -50,7 +50,7 @@ const About = () => {
           <div className="mt-4">
             <div className="flex justify-between mb-2">
               <span className="text-slate-400 dark:text-white/60">
-                Photography
+                Photographs
               </span>
               <span className="text-slate-400 dark:text-white/60">79%</span>
             </div>
