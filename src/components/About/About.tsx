@@ -10,7 +10,7 @@ const About = () => {
               height="415"
               className="rounded-xl"
               src="https://www.youtube.com/embed/nqIAKW92TBM?si=xfpndmS2dub0FqtU"
-              title="YouTube video player"
+              title="YouTube Video Player"
            
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
