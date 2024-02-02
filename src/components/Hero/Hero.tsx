@@ -1,4 +1,5 @@
 import { FaFileArrowDown } from "react-icons/fa6";
+import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import "./Hero.css";
 
 import soumenheroImg from "../../assets/img/Soumen.jpg";
@@ -73,6 +74,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <a
+        href="#about"
+        className="bounce flex align-center items-center justify-center sm:hidden lg:block md:block"
+      >
+        <MdOutlineKeyboardDoubleArrowDown size={35} />
+      </a>
     </section>
   );
 };
