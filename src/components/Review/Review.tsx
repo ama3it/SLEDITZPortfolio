@@ -1,8 +1,3 @@
-import img01 from "../../assets/img/01.jpg";
-import img02 from "../../assets/img/02.jpg";
-import img03 from "../../assets/img/03.jpg";
-import img04 from "../../assets/img/04.jpg";
-
 const Review = () => {
   return (
     <>
@@ -19,11 +14,12 @@ const Review = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-6 gap-6">
+          
           <ul className="space-y-6">
             <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
-                  src={img01}
+                  src="https://avatar.iran.liara.run/public/boy"
                   className="h-14 w-14 rounded-full shadow dark:shadow-gray-800"
                   alt=""
                 />
@@ -68,7 +64,7 @@ const Review = () => {
             <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
-                  src={img02}
+                  src="https://avatar.iran.liara.run/public/girl"
                   className="h-14 w-14 rounded-full shadow dark:shadow-gray-800"
                   alt=""
                 />
@@ -111,11 +107,11 @@ const Review = () => {
             </li>
           </ul>
 
-          <ul className="space-y-6 hidden sm:block">
+          <ul className="space-y-6  ">
             <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
-                  src={img03}
+                  src="https://avatar.iran.liara.run/public/boy?age=20"
                   className="h-14 w-14 rounded-full shadow dark:shadow-gray-800"
                   alt=""
                 />
@@ -161,7 +157,8 @@ const Review = () => {
             <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
-                  src={img04}
+                  src="https://avatar.iran.liara.run/public/girl?username=tom"
+                  
                   className="h-14 w-14 rounded-full shadow dark:shadow-gray-800"
                   alt=""
                 />
@@ -204,11 +201,11 @@ const Review = () => {
             </li>
           </ul>
 
-          <ul className="space-y-6 hidden lg:block">
+          <ul className="space-y-6  ">
             <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
-                  src={img01}
+                  src="https://avatar.iran.liara.run/public/boy?username=amit"
                   className="h-14 w-14 rounded-full shadow dark:shadow-gray-800"
                   alt=""
                 />
@@ -253,7 +250,7 @@ const Review = () => {
             <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
-                  src="assets/img/06.jpg"
+                  src="https://avatar.iran.liara.run/public/boy?username=john"
                   className="h-14 w-14 rounded-full shadow dark:shadow-gray-800"
                   alt=""
                 />
@@ -295,6 +292,7 @@ const Review = () => {
               </div>
             </li>
           </ul>
+
         </div>
       </div>
 

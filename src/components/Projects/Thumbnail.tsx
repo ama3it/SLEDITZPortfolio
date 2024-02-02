@@ -18,7 +18,7 @@ const Thumbnail = () => {
                 <img src={t3} className="rounded-xl" alt="" />
               </a>
             </div>
-            <div className="absolute inset-0 bg-orange-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
+            <div className="absolute inset-0 bg-blue-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
           </div>
         </div>
 
@@ -29,7 +29,7 @@ const Thumbnail = () => {
                 <img src={t1} className="rounded-xl" alt="" />
               </a>
             </div>
-            <div className="absolute inset-0 bg-orange-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
+            <div className="absolute inset-0 bg-blue-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
           </div>
         </div>
 
@@ -40,7 +40,7 @@ const Thumbnail = () => {
                 <img src={t2} className="rounded-xl" alt="" />
               </a>
             </div>
-            <div className="absolute inset-0 bg-orange-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
+            <div className="absolute inset-0 bg-blue-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ const Thumbnail = () => {
                 <img src={t4} className="rounded-xl" alt="" />
               </a>
             </div>
-            <div className="absolute inset-0 bg-orange-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
+            <div className="absolute inset-0 bg-blue-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
           </div>
         </div>
 
@@ -62,7 +62,7 @@ const Thumbnail = () => {
                 <img src={t5} className="rounded-xl" alt="" />
               </a>
             </div>
-            <div className="absolute inset-0 bg-orange-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
+            <div className="absolute inset-0 bg-blue-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const Thumbnail = () => {
                 <img src={t6} className="rounded-xl" alt="" />
               </a>
             </div>
-            <div className="absolute inset-0 bg-orange-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
+            <div className="absolute inset-0 bg-blue-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ const Thumbnail = () => {
                 <img src={t7} className="rounded-xl" alt="" />
               </a>
             </div>
-            <div className="absolute inset-0 bg-orange-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
+            <div className="absolute inset-0 bg-blue-500 rounded-xl group-hover:-mt-[10px] group-hover:-ms-[10px] h-[98%] w-[98%] duration-700 -z-1"></div>
           </div>
         </div>
       </div>

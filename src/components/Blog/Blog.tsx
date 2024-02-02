@@ -1,13 +1,7 @@
-import img1 from "../../assets/img/1.jpg"
-import img01 from "../../assets/img/01.jpg"
-import img02 from "../../assets/img/2_002.jpg"
-import img03 from "../../assets/img/3.jpg"
-
-
 const Blog = () => {
   return (
     <>
-      <div className="container relative md:mt-24 mt-16">
+      <div className="container relative md:mt-24 mt-16" id="blogs">
         <div className="grid grid-cols-1 pb-6 text-center">
           <h3 className="mb-6 md:text-2xl text-xl font-medium">
             Blogs &amp; News
@@ -22,11 +16,11 @@ const Blog = () => {
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
           <div className="group">
             <div className="relative overflow-hidden rounded-xl shadow-md dark:shadow-gray-700">
-              <img src={img1} className="" alt="" />
+              <img src="https://source.unsplash.com/random/400×300/?books" alt="" className="w-[400px] h-[300px]"/>
               <div className="absolute inset-0 bg-gradient-to-b to-slate-900 from-transparent opacity-0 group-hover:opacity-100 duration-500"></div>
               <div className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
                 <img
-                  src={img01}
+                  src="https://source.unsplash.com/random/400×300/?books"
                   className="h-9 w-9 rounded-xl"
                   alt=""
                 />
@@ -67,11 +61,11 @@ const Blog = () => {
 
           <div className="group">
             <div className="relative overflow-hidden rounded-xl shadow-md dark:shadow-gray-700">
-              <img src={img02} className="" alt="" />
+              <img src="https://source.unsplash.com/random/400×300/?city,night" alt="" className="w-[400px] h-[300px]" />
               <div className="absolute inset-0 bg-gradient-to-b to-slate-900 from-transparent opacity-0 group-hover:opacity-100 duration-500"></div>
               <div className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
                 <img
-                  src={img01}
+                  src="https://source.unsplash.com/random/400×300/?city,night"
                   className="h-9 w-9 rounded-xl"
                   alt=""
                 />
@@ -112,13 +106,14 @@ const Blog = () => {
 
           <div className="group">
             <div className="relative overflow-hidden rounded-xl shadow-md dark:shadow-gray-700">
-              <img src={img03} className="" alt="" />
+              <img src="https://source.unsplash.com/random/400×300/?women" className="w-[400px] h-[300px]" alt="" />
               <div className="absolute inset-0 bg-gradient-to-b to-slate-900 from-transparent opacity-0 group-hover:opacity-100 duration-500"></div>
               <div className="absolute start-4 bottom-4 opacity-0 group-hover:opacity-100 flex items-center duration-500">
                 <img
-                  src={img01}
+                  src="https://source.unsplash.com/random/400×300/?women"
                   className="h-9 w-9 rounded-xl"
                   alt=""
+                  
                 />
                 <div className="ms-2">
                   <a

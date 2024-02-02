@@ -1,31 +1,33 @@
 import "./Nav.css";
-import logoDark from "../../assets/img/logo-dark.png";
-import logoWhite from "../../assets/img/logo-white.png";
+
+import slEditz from "../../assets/img/SlEditz.png"
 import { useState } from "react";
 
 const Nav = () => {
   const [mobileNav, setMobileNav] = useState<boolean>(false);
+  const [submenu,setSubmenu]=useState<boolean>(false)
 
   const navToggle = () => {
     setMobileNav((prevState) => !prevState);
   };
 
+  const submenuToogle=()=>{
+    setSubmenu((prevState)=>!prevState)
+  }
+
   return (
     <>
       <nav id="topnav" className="defaultscroll is-sticky nav-sticky">
         <div className="container relative">
-          <a
-            className="logo"
-            href="/"
-          >
+          <a className="logo" href="/">
             <img
-              src={logoDark}
-              className="h-5 inline-block dark:hidden"
+              src={slEditz}
+              className="h-9 inline-block dark:hidden"
               alt=""
             />
             <img
-              src={logoWhite}
-              className="h-5 hidden dark:inline-block"
+              src={slEditz}
+              className="h-9 hidden dark:inline-block"
               alt=""
             />
           </a>
@@ -59,9 +61,9 @@ const Nav = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="feather feather-dribbble h-[14px] w-[14px] align-middle"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
@@ -81,9 +83,9 @@ const Nav = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="feather feather-linkedin h-[14px] w-[14px] align-middle"
                 >
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -104,9 +106,9 @@ const Nav = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="feather feather-github h-[14px] w-[14px] align-middle"
                 >
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -120,67 +122,53 @@ const Nav = () => {
             style={{ display: mobileNav ? "block" : "none" }}
           >
             <ul className="navigation-menu justify-end">
+
               <li className="active">
-                <a
-                  href="#"
-                  className="sub-menu-item"
-                >
+                <a href="#" className="sub-menu-item">
                   Home
                 </a>
               </li>
 
               <li>
-                <a
-                  href="#about"
-                  className="sub-menu-item"
-                >
-                  About Us
+                <a href="#about" className="sub-menu-item">
+                  About
                 </a>
               </li>
-           
-              <li className="has-submenu parent-menu-item">
+
+              <li>
+                <a href="#projects" className="sub-menu-item">
+                  My Works
+                </a>
+              </li>
+
+              <li className="has-submenu parent-menu-item " onClick={submenuToogle}>
                 <a href="#">Services</a>
                 <span className="menu-arrow"></span>
-                <ul className="submenu">
+                <ul className={submenu?"submenu open":"submenu"}>
                   <li>
-                    <a
-                      href="#"
-                      className="sub-menu-item"
-                    >
+                    <a href="#" className="sub-menu-item">
                       Video Editing
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#"
-                      className="sub-menu-item"
-                    >
-                      Photo 
+                    <a href="#" className="sub-menu-item">
+                      Photo
                     </a>
                   </li>
                 </ul>
               </li>
 
-
               <li>
-                <a
-                  href="#blogs"
-                  className="sub-menu-item"
-                >
+                <a href="#blogs" className="sub-menu-item">
                   blogs
                 </a>
               </li>
 
               <li>
-                <a
-                  href="#contact"
-                  className="sub-menu-item"
-                >
+                <a href="#contact" className="sub-menu-item">
                   Contact Us
                 </a>
               </li>
-
-
             </ul>
           </div>
         </div>
