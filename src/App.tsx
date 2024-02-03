@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Nav from "./components/Nav/Nav";
+import Pricing from "./components/PricingTable/PricingTable";
 import Projects from "./components/Projects/Projects";
 import Review from "./components/Review/Review";
 import Services from "./components/Services/Services";
@@ -22,6 +23,7 @@ const App = () => {
         <Projects />
         <Review />
         <Blog />
+        <Pricing/>
         <Contact/>
       </section>
       <ThemeToggle/>
