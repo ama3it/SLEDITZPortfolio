@@ -1,3 +1,4 @@
+import Logo from '../../assets/img/SlEditz.png'
 const Footer = () => {
   return (
     <footer className="relative bg-gray-900 overflow-hidden">
@@ -7,8 +8,8 @@ const Footer = () => {
             <div className="lg:col-span-3 md:text-start text-center">
               <a href="#" className="text-[22px] focus:outline-none">
                 <img
-                  src="assets/img/logo-white.png"
-                  className="mx-auto md:me-auto md:ms-0"
+                  src={Logo}
+                  className="mx-auto md:me-auto md:ms-0 h-9"
                   alt=""
                 />
               </a>

@@ -37,7 +37,7 @@ const Hero = () => {
                 href="#"
                 className="py-2 px-3 mx-2 inline-flex items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-slate-500 hover:bg-slate-400 border-slate-400 hover:border-slate-400 text-white rounded-xl"
               >
-                Download Resume &nbsp; <FaFileArrowDown />
+                Download Resume
               </a>
 
               <a
@@ -52,9 +52,9 @@ const Hero = () => {
           <div className="relative lg:ms-6">
             <div className="relative z-1">
               <img
+                className="about_image"
                 src={soumenheroImg}
                 alt="soumen.png"
-                className="about_image"
               />
 
               <div className="absolute lg:bottom-20 -bottom-5 md:-start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">

@@ -1106,17 +1106,6 @@ h6 {
     --tw-shadow: var(--tw-shadow-colored) !important
 }
 
-:is(.dark .dark\:before\:bg-orange-500)::before {
-    content: var(--tw-content) !important;
-    --tw-bg-opacity: 1 !important;
-    background-color: rgb(249 115 22 / var(--tw-bg-opacity)) !important
-}
-
-:is(.dark .dark\:before\:bg-orange-500\/20)::before {
-    content: var(--tw-content) !important;
-    background-color: rgb(249 115 22 / .2) !important
-}
-
 :is(.dark .dark\:hover\:border-orange-500:hover) {
     --tw-border-opacity: 1 !important;
     border-color: rgb(22 62 249/ var(--tw-border-opacity)) !important
