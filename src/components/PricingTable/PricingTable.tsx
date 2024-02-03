@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <section className="overflow-hidden lg:pb-[90px] lg:pt-[120px]">
+    <section className="overflow-hidden my-10">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">

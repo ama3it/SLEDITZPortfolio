@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Nav from "./components/Nav/Nav";
+import Parallax from "./components/Parallax/Parallax";
 import Pricing from "./components/PricingTable/PricingTable";
 import Projects from "./components/Projects/Projects";
 import Review from "./components/Review/Review";
@@ -19,10 +20,13 @@ const App = () => {
       <Hero />
       <section className="relative overflow-hidden md:py-24 py-16">
         <About />
+
         <Services />
         <Projects />
+
         <Review />
         <Blog />
+        <Parallax/>
         <Pricing/>
         <Contact/>
       </section>
