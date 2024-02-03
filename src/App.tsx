@@ -11,6 +11,7 @@ import Pricing from "./components/PricingTable/PricingTable";
 import Projects from "./components/Projects/Projects";
 import Review from "./components/Review/Review";
 import Services from "./components/Services/Services";
+import SocialButton from "./components/SocialButton/SocialButton";
 import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
 
 const App = () => {
@@ -29,8 +30,10 @@ const App = () => {
         <Parallax/>
         <Pricing/>
         <Contact/>
+        
       </section>
       <ThemeToggle/>
+      <SocialButton/>
       <BackToTop/>
       <Footer />
     </div>
