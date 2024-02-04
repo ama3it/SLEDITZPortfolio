@@ -21,14 +21,9 @@ const Hero = () => {
               <br />
             </h5>
 
-            {/* <h5 className=" md:text-5xl md:leading-normal text-3xl leading-normal font-bold mt-3 animated-info">
-              
-            </h5> */}
-
             <p className="text-slate-400 dark:text-white/60 text-[17px] max-w-xl mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-              quos obcaecati perferendis voluptatibus tempore quis, reiciendis
-              dignissimos possimus veritatis alias?
+              Welcome to SlEditz's Video Editing Studio! Crafting Engaging
+              Visual Narratives.
             </p>
 
             <div className="relative mt-6 inline-flex ">
@@ -43,7 +38,7 @@ const Hero = () => {
                 href="#contact"
                 className="py-2 px-5 inline-flex  items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-white rounded-xl"
               >
-                Contact Me <i className="mdi mdi-arrow-right ms-2"></i>
+                Contact Me
               </a>
             </div>
           </div>
@@ -62,13 +57,7 @@ const Hero = () => {
                   5+ Years Experience
                 </h6>
               </div>
-              {/* 
-            <div className="absolute md:top-20 top-32 md:-end-10 -end-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-              <h6 className="font-semibold">Web Designer</h6>
-              <h6 className="text-sm text-slate-400 mt-1">
-                7+ Years Experience
-              </h6>
-            </div> */}
+             
             </div>
           </div>
         </div>
