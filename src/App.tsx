@@ -1,18 +1,18 @@
 import "./App.css";
-import About from "./components/About/About";
-import BackToTop from "./components/BackToTop/BackToTop";
-import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero/Hero";
-import Nav from "./components/Nav/Nav";
-import Parallax from "./components/Parallax/Parallax";
-import Pricing from "./components/PricingTable/PricingTable";
-import Projects from "./components/Projects/Projects";
-import Review from "./components/Review/Review";
-import Services from "./components/Services/Services";
-import SocialButton from "./components/SocialButton/SocialButton";
-import ThemeToggle from "./components/ThemeToggle/ThemeToggle";
+import About from "./components/About";
+import BackToTop from "./components/BackToTop";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
+import Parallax from "./components/Parallax";
+import Pricing from "./components/PricingTable";
+import Projects from "./components/Projects";
+import Review from "./components/Review";
+import Services from "./components/Services";
+import SocialButton from "./components/SocialButton";
+import ThemeToggle from "./components/ThemeToggle";
 
 const App = () => {
   return (
