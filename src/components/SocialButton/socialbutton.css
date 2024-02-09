@@ -9,12 +9,12 @@
 }
 
 .social li:hover {
-    margin-right: -30px;
+    margin-left: -30px;
     box-shadow: 2px 5px 10px grey;
 }
 
 .social li:hover .fa {
-    margin-left: 20px;
+    margin-right: 20px;
 
 }
 

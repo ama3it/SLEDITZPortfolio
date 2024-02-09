@@ -3,7 +3,6 @@ import "./Nav.css";
 import slEditz from "../../assets/img/SlEditz.png";
 import { useState } from "react";
 import {
-  FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
@@ -84,15 +83,8 @@ const Nav = () => {
               </a>
             </li>
 
+          
             <li className="inline mb-0 mx-1">
-              <a
-                href=""
-                className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-[#316FF6] hover:bg-[#316FF6] border border-[#316FF6] hover:border-[#316FF6] text-white"
-              >
-                <FaFacebookF />
-              </a>
-            </li>
-            <li className="inline mb-0 mx-0">
               <a
                 href="https://www.youtube.com/@SlEditz_official"
                 target="_blank"
