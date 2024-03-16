@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Project.css";
 import Thumbnail from "./Thumbnail";
 import Videos from "./Videos";
+import Editing from "./Editing";
 
 enum projectcat{
  Videoediting,
@@ -40,7 +41,7 @@ const Projects = () => {
                 Thumbnail
               </li>
               
-              <li className="inline-block font-medium text-[15px] mb-3 text-slate-400 cursor-pointer relative duration-500">
+              <li className={`inline-block font-medium text-[15px] mb-3 text-slate-400 cursor-pointer relative duration-500 ${userClick===projectcat.photoediting?'active':""}`} onClick={()=>renderProject(projectcat.photoediting)} >
                 Photography
               </li>
 
@@ -56,6 +57,9 @@ const Projects = () => {
   }
   if(userClick===projectcat.thumbnail){
     return <Thumbnail/>
+  }
+  if(userClick===projectcat.photoediting){
+    return <Editing/>
   }
 
 })()
