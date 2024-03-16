@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import About from "./components/About";
 import BackToTop from "./components/BackToTop";
@@ -13,10 +14,28 @@ import Review from "./components/Review";
 import Services from "./components/Services";
 import SocialButton from "./components/SocialButton";
 import ThemeToggle from "./components/ThemeToggle";
+import Preloader from "./components/Preloader/Preloader";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+  
+    const fetchData = async () => {
+      
+      await new Promise((resolve) => setTimeout(resolve, 2000))
+      setLoading(false)
+    }
+
+    fetchData()
+  },[])
+
+
   return (
-    <div className="font-poppins text-[15px] text-slate-900 dark:text-white dark:bg-slate-900">
+    
+      loading?<Preloader/>
+      :
+      <div className="font-poppins text-[15px] text-slate-900 dark:text-white dark:bg-slate-900">
       <Nav />
       <Hero />
       <section className="relative overflow-hidden md:py-24 py-16">
@@ -37,6 +56,9 @@ const App = () => {
       <BackToTop/>
       <Footer />
     </div>
+
+  
+   
   );
 };
 
