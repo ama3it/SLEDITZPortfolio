@@ -122,17 +122,22 @@ const Nav = () => {
                 className="has-submenu parent-menu-item "
                 onClick={submenuToogle}
               >
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
                 <span className="menu-arrow"></span>
                 <ul className={submenu ? "submenu open" : "submenu"}>
                   <li>
-                    <a href="#" className="sub-menu-item">
+                    <a href="#services" className="sub-menu-item">
                       Video Editing
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="sub-menu-item">
-                      Photo
+                    <a href="#services" className="sub-menu-item">
+                      Thumbnail Design
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#services" className="sub-menu-item">
+                      Photo Editing
                     </a>
                   </li>
                 </ul>

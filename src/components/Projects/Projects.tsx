@@ -20,7 +20,7 @@ const Projects = () => {
 
 
   return (
-    <div className="container relative md:mt-24 mt-16" id="projects">
+    <div className="container relative md:mt-24 mt-16" id="services">
       <div className="grid grid-cols-1 pb-6 text-center">
         <h3 className="mb-6 md:text-2xl text-xl font-medium">Portfolio</h3>
 
