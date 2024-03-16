@@ -1,5 +1,4 @@
 import "./socialbutton.css";
-
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
@@ -8,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 const ThemeToggle = () => {
   return (
     <>
-      <div className="fixed top-1/2 right-0 z-3">
+      <div className="fixed top-1/2 right-0 z-3 desktop-only">
         <span className="relative inline-block">
           <ul className="social">
             <li className="bg-[#0A66C2]">
@@ -29,9 +28,6 @@ const ThemeToggle = () => {
                 <MdEmail className="fa" />
               </a>
             </li>
-
-           
-
             <li className="bg-[#ff4343]">
               <a
                 href="https://www.youtube.com/@SlEditz_official"

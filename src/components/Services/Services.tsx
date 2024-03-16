@@ -32,7 +32,8 @@ const Services = () => {
               Video Editing
             </p>
             <p className="text-slate-400 dark:text-white/60 text-[15px] duration-500 mt-3">
-            Transform your content into captivating stories with expert video editing services for a memorable experience.
+              Transform your content into captivating stories with expert video
+              editing services for a memorable experience.
             </p>
           </div>
         </div>
@@ -53,7 +54,8 @@ const Services = () => {
               Photo Editing
             </a>
             <p className="text-slate-400 dark:text-white/60 text-[15px] duration-500 mt-3">
-            Enhance your memories with professional photo editing, bringing out the best in every image effortlessly.
+              Enhance your memories with professional photo editing, bringing
+              out the best in every image effortlessly.
             </p>
           </div>
         </div>
@@ -73,7 +75,8 @@ const Services = () => {
               Thumbnail Design
             </a>
             <p className="text-slate-400 dark:text-white/60 text-[15px] duration-500 mt-3">
-            Elevate your content with eye-catching thumbnail designs that grab attention and boost engagement instantly.
+              Elevate your content with eye-catching thumbnail designs that grab
+              attention and boost engagement instantly.
             </p>
           </div>
         </div>
