@@ -21,7 +21,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      await new Promise((resolve) => setTimeout(resolve, 2500));
+      await new Promise((resolve) => setTimeout(resolve, 3000));
       setLoading(false);
     };
 
@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <>
-      {loading ? <Preloader /> : ""}
+     
       <div className={`font-poppins text-[15px] text-slate-900 dark:text-white dark:bg-slate-900 ${loading ? 'hidden' : ''}`}>
         <Nav />
         <Hero />
@@ -51,6 +51,8 @@ const App = () => {
         <BackToTop />
         <Footer />
       </div>
+
+      {loading ? <Preloader /> : ""}
     </>
   );
 };

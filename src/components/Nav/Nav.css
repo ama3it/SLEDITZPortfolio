@@ -430,11 +430,11 @@
 
 #topnav.nav-sticky {
     --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-    --tw-shadow: 0 0 3px rgb(60 72 88 / 0.15);
-    --tw-shadow-colored: 0 0 3px var(--tw-shadow-color);
-    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+    /* --tw-shadow: 0 0 3px rgb(60 72 88 / 0.15); */
+    /* --tw-shadow-colored: 0 0 3px var(--tw-shadow-color); */
+    /* -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); */
+    /* box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) */
 }
 
 :is(.dark #topnav.nav-sticky) {
