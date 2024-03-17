@@ -17,45 +17,41 @@ import ThemeToggle from "./components/ThemeToggle";
 import Preloader from "./components/Preloader/Preloader";
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading delay
-    const timeout = setTimeout(() => {
-        setIsLoading(false);
-    }, 2000);
+    const fetchData = async () => {
+      await new Promise((resolve) => setTimeout(resolve, 2500));
+      setLoading(false);
+    };
 
-    return () => clearTimeout(timeout);
-}, []);
+    fetchData();
+  }, []);
 
   return (
-    
-    isLoading?<Preloader/>
-      :
-      <div className="font-poppins text-[15px] text-slate-900 dark:text-white dark:bg-slate-900">
-      <Nav />
-      <Hero />
-      <section className="relative overflow-hidden md:py-24 py-16">
-        <About />
+    <>
+      {loading ? <Preloader /> : ""}
+      <div className={`font-poppins text-[15px] text-slate-900 dark:text-white dark:bg-slate-900 ${loading ? 'hidden' : ''}`}>
+        <Nav />
+        <Hero />
+        <section className="relative overflow-hidden md:py-24 py-16">
+          <About />
 
-        <Services />
-        <Projects />
+          <Services />
+          <Projects />
 
-        <Review />
-        <Blog />
-        <Parallax/>
-        <Pricing/>
-        <Contact/>
-        
-      </section>
-      <ThemeToggle/>
-      <SocialButton/>
-      <BackToTop/>
-      <Footer />
-    </div>
-
-  
-   
+          <Review />
+          <Blog />
+          <Parallax />
+          <Pricing />
+          <Contact />
+        </section>
+        <ThemeToggle />
+        <SocialButton />
+        <BackToTop />
+        <Footer />
+      </div>
+    </>
   );
 };
 

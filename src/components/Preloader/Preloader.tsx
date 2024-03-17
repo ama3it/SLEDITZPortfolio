@@ -8,6 +8,8 @@ const Preloader = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        height:"100vh",
+        
       }}
     >
       <img src={loadingGif} alt="" style={{ width: "50vw" }} />
