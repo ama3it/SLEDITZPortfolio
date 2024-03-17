@@ -1,10 +1,10 @@
-import t1 from "../../assets/projects/thumbnail/1.png";
-import t2 from "../../assets/projects/thumbnail/2.png";
-import t3 from "../../assets/projects/thumbnail/3.png";
-import t4 from "../../assets/projects/thumbnail/4.png";
-import t5 from "../../assets/projects/thumbnail/5.png";
-import t6 from "../../assets/projects/thumbnail/6.png";
-import t7 from "../../assets/projects/thumbnail/7.png";
+import t1 from "../../assets/projects/thumbnail/1.webp";
+import t2 from "../../assets/projects/thumbnail/2.webp";
+import t3 from "../../assets/projects/thumbnail/3.webp";
+import t4 from "../../assets/projects/thumbnail/4.webp";
+import t5 from "../../assets/projects/thumbnail/5.webp";
+import t6 from "../../assets/projects/thumbnail/6.webp";
+import t7 from "../../assets/projects/thumbnail/7.webp";
 
 const Thumbnail = () => {
   return (

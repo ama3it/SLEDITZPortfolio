@@ -17,23 +17,20 @@ import ThemeToggle from "./components/ThemeToggle";
 import Preloader from "./components/Preloader/Preloader";
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-  
-    const fetchData = async () => {
-      
-      await new Promise((resolve) => setTimeout(resolve, 2000))
-      setLoading(false)
-    }
+    // Simulate loading delay
+    const timeout = setTimeout(() => {
+        setIsLoading(false);
+    }, 2000);
 
-    fetchData()
-  },[])
-
+    return () => clearTimeout(timeout);
+}, []);
 
   return (
     
-      loading?<Preloader/>
+    isLoading?<Preloader/>
       :
       <div className="font-poppins text-[15px] text-slate-900 dark:text-white dark:bg-slate-900">
       <Nav />

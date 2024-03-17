@@ -1,7 +1,7 @@
 import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import "./Hero.css";
 
-import soumenheroImg from "../../assets/img/Soumen.jpg";
+import soumenheroImg from "../../assets/img/Soumen.webp";
 // import heroImg from '../../assets/img/hero.png'
 
 const Hero = () => {

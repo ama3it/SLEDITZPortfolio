@@ -1,13 +1,13 @@
-import b1 from "../../assets/articles/1.png";
-import b2 from "../../assets/articles/2.jpg";
-import b3 from "../../assets/articles/3.jpg";
+import b1 from "../../assets/articles/1.webp";
+import b2 from "../../assets/articles/2.webp";
+import b3 from "../../assets/articles/3.webp";
 
 const Blog = () => {
   return (
     <>
       <div className="container relative md:mt-24 mt-16" id="blogs">
         <div className="grid grid-cols-1 pb-6 text-center">
-          <h3 className="mb-6 md:text-2xl text-xl font-medium">
+          <h3 className="mb-6 md:text-2xl text-xl font-bold">
             Articles &amp; News
           </h3>
 

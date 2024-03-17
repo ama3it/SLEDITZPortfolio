@@ -5,11 +5,12 @@ import layers1 from "../../assets/img/layers-1.svg";
 
 import Placeholder from "./Placeholder";
 
+import './style.css'
 const Services = () => {
   return (
     <div className="container relative md:mt-24 mt-16">
       <div className="grid grid-cols-1 pb-6 text-center">
-        <h3 className="mb-6 md:text-2xl text-xl font-medium">What I do?</h3>
+        <h3 className="mb-6 md:text-2xl text-xl font-bold">What I do?</h3>
 
         <p className="text-slate-400 dark:text-white/60 max-w-xl mx-auto">
           A glimpse into the services I offer to create impactful and innovative
@@ -23,7 +24,7 @@ const Services = () => {
             <Placeholder />
 
             <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
-              <img src={VideoIcon} className="h-8" alt="" />
+              <img src={VideoIcon} className="h-8 transform hover:spin-on-hover transition duration-500" alt="" />
             </div>
           </div>
 
@@ -42,7 +43,7 @@ const Services = () => {
           <div className="relative overflow-hidden text-transparent -m-3">
             <Placeholder />
             <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
-              <img src={picturesFolderMemories} className="h-8" alt="" />
+              <img src={picturesFolderMemories} className="h-8 transform hover:spin-on-hover transition duration-500" alt="" />
             </div>
           </div>
 
@@ -63,7 +64,7 @@ const Services = () => {
           <div className="relative overflow-hidden text-transparent -m-3">
             <Placeholder />
             <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-blue-500 rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
-              <img src={layers1} className="h-8" alt="" />
+              <img src={layers1} className="h-8 transform hover:spin-on-hover transition duration-500" alt="" />
             </div>
           </div>
 

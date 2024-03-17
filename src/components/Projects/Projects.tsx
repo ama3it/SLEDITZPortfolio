@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div className="container relative md:mt-24 mt-16" id="services">
       <div className="grid grid-cols-1 pb-6 text-center">
-        <h3 className="mb-6 md:text-2xl text-xl font-medium">Portfolio</h3>
+        <h3 className="mb-6 md:text-2xl text-xl font-bold">Portfolio</h3>
 
         <p className="text-slate-400 dark:text-white/60 max-w-xl mx-auto">
         Dive into my freelance journey through a curated collection of impactful and diverse work samples.
