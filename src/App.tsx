@@ -35,7 +35,7 @@ const App = () => {
         <Nav />
         <Hero />
         <section className="relative overflow-hidden md:py-24 py-16">
-          <About />
+          {/* <About /> */}
 
           <Services />
           <Projects />

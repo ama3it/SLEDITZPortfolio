@@ -8,7 +8,7 @@ import Placeholder from "./Placeholder";
 import './style.css'
 const Services = () => {
   return (
-    <div className="container relative md:mt-24 mt-16">
+    <div className="container relative md:mt-10 mt-5" id="services">
       <div className="grid grid-cols-1 pb-6 text-center">
         <h3 className="mb-6 md:text-2xl text-xl font-bold">What I do?</h3>
 
