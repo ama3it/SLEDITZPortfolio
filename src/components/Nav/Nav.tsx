@@ -155,6 +155,11 @@ const Nav = () => {
                   blogs
                 </a>
               </li>
+              <li>
+                <a href="#pricing" className="sub-menu-item">
+                  Pricing
+                </a>
+              </li>
 
               <li>
                 <a href="#contact" className="sub-menu-item">

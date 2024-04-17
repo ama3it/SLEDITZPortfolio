@@ -4,7 +4,7 @@ import PricingCardTwo from "./PricingCardTwo";
 
 const Pricing = () => {
   return (
-    <section className="overflow-hidden my-10">
+    <section className="overflow-hidden my-10" id="pricing">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -70,62 +70,27 @@ const Pricing = () => {
             Project Basis Pricing Plan
           </h2>
           <p className="text-base text-body-color dark:text-dark-6">
-         Breakdown of costs and features for
-            customizable project-based pricing plans tailored to your specific
-            needs.
+            Breakdown of costs and features for customizable project-based
+            pricing plans tailored to your specific needs.
           </p>
         </div>
 
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div className="-mx-4 flex flex-wrap">
-            <PricingCardTwo
-              type="Basic"
-              price1="₹899"
-              subscription1="Reel"
-              price2="₹1499"
-              subscription2="Long Content"
-              price3="₹1899"
-              subscription3="Podcast"
-              description="Perfect for personal content."
-            >
-              <List>1 revision/Project</List>
-              <List>Fixed Timeline</List>
-              <List>-</List>
-              <List>-</List>
-              
-            </PricingCardTwo>
-
-            <PricingCardTwo
-              type="Standard"
-              price1="₹899"
-              subscription1="Reel"
-              price2="₹1499"
-              subscription2="Long Content"
-              price3="₹1899"
-              subscription3="Podcast"
-              description="Perfect for semi level content creator."
-            >
-              <List>Max 5 revision </List>
-              <List>Flexible timeline</List>
-              <List>-</List>
-              <List>-</List>
-            </PricingCardTwo>
-            <PricingCardTwo
-              type="Premium"
-              price1="₹899"
-              subscription1="Reel"
-              price2="₹1499"
-              subscription2="Long Content"
-              price3="₹1899"
-              subscription3="Podcast"
-              description="Perfect for professional content creator."
-            >
-              <List>Unlimited revision</List>
-              <List>Flexible timeline</List>
-              <List>Free consultation</List>
-              <List>Dedicated support</List>
-            </PricingCardTwo>
-          </div>
+        <div className="w-[100%] flex flex-wrap justify-center">
+          <PricingCardTwo
+            type="Premium"
+            price1="₹899"
+            subscription1="Reel"
+            price2="₹1499"
+            subscription2="Long Content"
+            price3="₹1899"
+            subscription3="Podcast"
+            description="Perfect for professional content creator."
+          >
+            <List>Unlimited revision</List>
+            <List>Flexible timeline</List>
+            <List>Free consultation</List>
+            <List>Dedicated support</List>
+          </PricingCardTwo>
         </div>
       </div>
     </section>
