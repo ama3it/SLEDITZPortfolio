@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import About from "./components/About";
+// import About from "./components/About";
 import BackToTop from "./components/BackToTop";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";

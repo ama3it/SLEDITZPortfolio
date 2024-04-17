@@ -13,7 +13,7 @@ const ThemeToggle = () => {
 
   return (
     <>
-      <div className="fixed top-1/2 -right-2 z-3">
+      <div className="fixed top-1/4 -right-2 z-3">
         <span className="relative inline-block rotate-90">
           <input
             type="checkbox"

@@ -2,12 +2,9 @@ import "./Nav.css";
 
 import slEditz from "../../assets/img/SlEditz.png";
 import { useState } from "react";
-import {
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { MdEmail, MdWhatsapp } from "react-icons/md";
+
 
 const Nav = () => {
   const [mobileNav, setMobileNav] = useState<boolean>(false);
@@ -38,6 +35,8 @@ const Nav = () => {
             />
           </a>
 
+         
+
           <div className="menu-extras">
             <div className="menu-item">
               <a
@@ -53,8 +52,9 @@ const Nav = () => {
               </a>
             </div>
           </div>
+        
 
-          <ul className="buy-button list-none mb-0" id="socialicons"> 
+          <ul className="buy-button list-none mb-0" id="socialicons">
             <li className="inline mb-0">
               <a
                 href="https://www.linkedin.com/in/soumen-bera-7a164a26b"
@@ -91,7 +91,6 @@ const Nav = () => {
               </a>
             </li>
 
-          
             <li className="inline mb-0 mx-0">
               <a
                 href="https://www.youtube.com/@SlEditz_official"
@@ -108,12 +107,12 @@ const Nav = () => {
             style={{ display: mobileNav ? "block" : "none" }}
           >
             <ul className="navigation-menu justify-end">
-              <li >
+              <li>
                 <a href="#" className="sub-menu-item">
                   Home
                 </a>
               </li>
-{/* 
+              {/* 
               <li>
                 <a href="#about" className="sub-menu-item">
                   About
@@ -151,7 +150,6 @@ const Nav = () => {
                 </a>
               </li>
 
-
               <li>
                 <a href="#blogs" className="sub-menu-item">
                   blogs
@@ -165,6 +163,9 @@ const Nav = () => {
               </li>
             </ul>
           </div>
+
+       
+
         </div>
       </nav>
     </>
