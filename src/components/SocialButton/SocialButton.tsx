@@ -31,7 +31,7 @@ const ThemeToggle = () => {
 
             <li className="bg-[#25d366]">
               <a
-                href="https://wa.me/917478874759?text=Hello"
+                href="https://wa.me/919382217782?text=Hello"
                 target="_blank"
               >
                 <FaWhatsapp className="fa" />

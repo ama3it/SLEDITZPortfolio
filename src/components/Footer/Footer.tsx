@@ -1,6 +1,6 @@
 import { BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
 import Logo from "../../assets/img/SlEditz.png";
-import { MdMail } from "react-icons/md";
+import { MdMail, MdWhatsapp } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="relative bg-gray-900 overflow-hidden">
@@ -59,6 +59,16 @@ const Footer = () => {
                  <MdMail className="feather feather-mail h-[14px] w-[14px] align-middle" width={24} height={24} />
                 </a>
               </li>
+
+              <li className="inline">
+                <a
+                  href="https://wa.me/919382217782?text=Hello"
+                  className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center border border-gray-800 dark:border-slate-800 rounded-xl hover:border-blue-500 dark:hover:border-blue-500 hover:bg-blue-500 dark:hover:bg-blue-500 text-slate-300 hover:text-white"
+                >
+                 <MdWhatsapp className="feather feather-mail h-[14px] w-[14px] align-middle" width={24} height={24} />
+                </a>
+              </li>
+
 
               <li className="inline">
                 <a

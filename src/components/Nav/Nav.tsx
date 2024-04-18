@@ -84,7 +84,7 @@ const Nav = () => {
             </li>
             <li className="inline mb-0 mx-1">
               <a
-                href="https://wa.me/917478874759?text=Hello"
+                href="https://wa.me/919382217782?text=Hello"
                 className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center rounded-xl bg-[#25d366] hover:bg-[#25d365a1] border border-[#25d366] hover:border-[#25d365a1] text-white"
               >
                 <MdWhatsapp />
