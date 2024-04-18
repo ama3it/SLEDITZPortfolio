@@ -2,7 +2,7 @@ import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import "./Hero.css";
 
 import soumenheroImg from "../../assets/img/Soumen.webp";
-// import heroImg from '../../assets/img/hero.png'
+import resume from "../../assets/Resume.pdf";
 
 const Hero = () => {
   return (
@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div className="relative mt-6 inline-flex ">
               <a
-                href="#"
+                href={resume}
                 className="py-2 px-3 mx-2 inline-flex items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-slate-500 hover:bg-slate-400 border-slate-400 hover:border-slate-400 text-white rounded-xl"
               >
                 Download Resume
@@ -57,7 +57,6 @@ const Hero = () => {
                   5+ Years Experience
                 </h6>
               </div>
-             
             </div>
           </div>
         </div>
