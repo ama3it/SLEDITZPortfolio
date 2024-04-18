@@ -53,7 +53,7 @@ const Contact = () => {
 
             {
               status===undefined?"":
-              status===false? <h6 style={{color:'red'}}>Sorry something is wrong. Please contact via other social handels</h6>: <h6 style={{color:'green'}}>I got your message. Will contact you as soon as possible.</h6>
+              status===false? <h6 className="text-red-600 mb-2">Sorry something is wrong. Please contact via other social handels</h6>: <h6 className="text-green-600 mb-2">I got your message. Will contact you as soon as possible.</h6>
             }
 
             <form
@@ -141,6 +141,7 @@ const Contact = () => {
                 <div className="mb-5">
                   <label htmlFor="comments" className="form-label font-medium">
                     Your Comment
+                    
                   </label>
                   <textarea
                     id="comments"
