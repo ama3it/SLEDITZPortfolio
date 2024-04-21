@@ -16,6 +16,7 @@ import SocialButton from "./components/SocialButton";
 import ThemeToggle from "./components/ThemeToggle";
 import Preloader from "./components/Preloader/Preloader";
 
+
 const App = () => {
   const [loading, setLoading] = useState(true);
 
