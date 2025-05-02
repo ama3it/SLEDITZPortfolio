@@ -25,7 +25,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap justify-center">
+        <div className="-mx-4 flex flex-wrap justify-center gap-1">
           <div className="-mx-4 flex flex-wrap">
             {pricingPlans.map((plan) => (
               <PricingCard

@@ -3,7 +3,7 @@ import "./Hero.css";
 
 import soumenheroImg from "../../assets/img/Soumen.webp";
 import resume from "../../assets/resume.pdf";
-import backgroundVideo from "../../assets/Showreel.mp4"; // Add your video file here
+import backgroundVideo from "../../assets/Showreel2.mp4"; // Add your video file here
 
 const Hero = () => {
   return (
