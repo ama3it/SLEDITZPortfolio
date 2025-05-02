@@ -14,7 +14,7 @@ const Review = () => {
 
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-6 gap-6">
           <ul className="space-y-6">
-            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
+            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-zinc-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
                   src="https://avatar.iran.liara.run/public/girl"
@@ -61,9 +61,7 @@ const Review = () => {
               </div>
             </li>
 
-
-           
-            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
+            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-zinc-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
                   src="https://avatar.iran.liara.run/public/boy"
@@ -109,11 +107,11 @@ const Review = () => {
               </div>
             </li>
 
-           
+
           </ul>
 
           <ul className="space-y-6  ">
-            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
+            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-zinc-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
                   src="https://avatar.iran.liara.run/public/girl?username=sarah"
@@ -159,7 +157,7 @@ const Review = () => {
               </div>
             </li>
 
-            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
+            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-zinc-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
                   src="https://avatar.iran.liara.run/public/boy?username=Michael"
@@ -208,7 +206,7 @@ const Review = () => {
           </ul>
 
           <ul className="space-y-6  ">
-            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
+            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-zinc-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
                   src="https://avatar.iran.liara.run/public/girl?username=foster"
@@ -251,7 +249,7 @@ const Review = () => {
               </div>
             </li>
 
-            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-slate-900">
+            <li className="rounded-xl shadow dark:shadow-gray-800 p-6 bg-white dark:bg-zinc-900">
               <div className="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800">
                 <img
                   src="https://avatar.iran.liara.run/public/boy?username=john"

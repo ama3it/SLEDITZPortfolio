@@ -35,8 +35,6 @@ const Nav = () => {
             />
           </a>
 
-         
-
           <div className="menu-extras">
             <div className="menu-item">
               <a
@@ -168,9 +166,6 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-
-       
-
         </div>
       </nav>
     </>

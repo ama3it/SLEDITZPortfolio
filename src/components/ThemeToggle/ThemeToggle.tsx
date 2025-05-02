@@ -1,15 +1,24 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Moon from "./Moon";
 import Sun from "./Sun";
 
 const ThemeToggle = () => {
   const [isNightMode, setIsNightMode] = useState<boolean>(true);
 
+  // Toggle function
   const toggle = () => {
-    setIsNightMode((prevMode) => !prevMode);
-    const htmlElement = document.documentElement;
-    htmlElement.className = isNightMode ? "dark" : "light";
+    setIsNightMode((prev) => !prev);
   };
+
+  // Effect to update the html class
+  useEffect(() => {
+    const html = document.documentElement;
+    if (isNightMode) {
+      html.classList.add("dark");
+    } else {
+      html.classList.remove("dark");
+    }
+  }, [isNightMode]);
 
   return (
     <>
@@ -20,6 +29,7 @@ const ThemeToggle = () => {
             className="checkbox opacity-0 absolute"
             id="chk"
             onChange={toggle}
+            checked={isNightMode}
           />
           <label
             className="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
@@ -27,7 +37,6 @@ const ThemeToggle = () => {
           >
             <Moon />
             <Sun />
-
             <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
           </label>
         </span>

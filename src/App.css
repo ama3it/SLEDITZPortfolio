@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
 
-html {
+/* html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     -moz-tab-size: 4;
@@ -23,7 +23,7 @@ hr {
     height: 0;
     color: inherit;
     border-top-width: 1px
-}
+} */
 
 abbr:where([title]) {
     -webkit-text-decoration: underline dotted;
@@ -245,11 +245,11 @@ progress {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important
 }
 
-p {
+/* p {
     line-height: 1.625
-}
+} */
 
-.h1,
+/* .h1,
 .h2,
 .h3,
 .h4,
@@ -262,7 +262,7 @@ h4,
 h5,
 h6 {
     font-family: Poppins, sans-serif
-}
+} */
 
 
 
@@ -559,6 +559,8 @@ h6 {
 
 
 
+/*
+
 .hover\:border-orange-500:hover {
     --tw-border-opacity: 1 !important;
     border-color: rgb(249 115 22 / var(--tw-border-opacity)) !important
@@ -610,7 +612,7 @@ h6 {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000) !important
 }
 
-
+*/
 
 :is(.dark .dark\:inline-block) {
     display: inline-block !important
@@ -620,6 +622,8 @@ h6 {
     display: none !important
 }
 
+
+/*
 :is(.dark .dark\:border-gray-700) {
     --tw-border-opacity: 1 !important;
     border-color: rgb(55 65 81 / var(--tw-border-opacity)) !important
@@ -734,8 +738,10 @@ h6 {
     background-color: rgb(15 23 42 / .9) !important
 }
 
+*/
 
 
+/*
 @media (min-width:640px) {
     .sm\:-bottom-px {
         bottom: -1px !important
@@ -1052,4 +1058,54 @@ h6 {
         padding-top: 12rem !important;
         padding-bottom: 12rem !important
     }
+}
+    */
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 16px 4px #a855f7, 0 0 32px 8px #3b82f6, 0 0 48px 16px #ec4899;
+  }
+  50% {
+    box-shadow: 0 0 32px 8px #a855f7, 0 0 64px 16px #3b82f6, 0 0 96px 32px #ec4899;
+  }
+  100% {
+    box-shadow: 0 0 16px 4px #a855f7, 0 0 32px 8px #3b82f6, 0 0 48px 16px #ec4899;
+  }
+}
+.animate-glow {
+  animation: glow 2s infinite alternate;
+}
+
+/* Add this to your global CSS */
+.glow-border {
+  border: none;
+  position: relative;
+  z-index: 1;
+}
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 10px;
+  background:
+    linear-gradient(90deg, #3b82f6 0%, #a855f7 40%, #ec4899 60%, #3b82f6 100%);
+  background-size: 200% 100%;
+  background-position: 0% 0%;
+  animation: beam-move 2s linear infinite;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2;
+}
+@keyframes beam-move {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }

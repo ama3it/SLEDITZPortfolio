@@ -46,7 +46,7 @@ const Contact = () => {
         </div>
 
         <div className="lg:ms-5">
-          <div className="bg-white dark:bg-slate-900 rounded-xl shadow dark:shadow-gray-700 p-6">
+          <div className="bg-white dark:bg-zinc-900 rounded-xl shadow dark:shadow-gray-700 p-6">
             <h3 className="mb-6 text-2xl leading-normal font-medium">
               Get in touch !
             </h3>
@@ -72,7 +72,7 @@ const Contact = () => {
                   <input
                     id="name"
                     type="text"
-                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
+                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-zinc-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
                     placeholder="Name "
                     {...register("name", { required: true ,min: 2})}
                     />
@@ -87,7 +87,7 @@ const Contact = () => {
                   <input
                     id="email"
                     type="email"
-                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
+                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-zinc-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
                     placeholder="Email "
                     {...register("email", { required: "true" })}
                     />
@@ -104,7 +104,7 @@ const Contact = () => {
                   </label>
                   <input
                     id="mobile"
-                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
+                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-zinc-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
                     placeholder="Mobile no..."
                     {...register("mobile", { required: "true", min: 8 })}
                   />
@@ -127,7 +127,7 @@ const Contact = () => {
                   </label>
                   <input
                     id="subject"
-                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
+                    className="form-input w-full py-2 px-3 h-10 bg-transparent border border-inherit dark:border-gray-800 dark:bg-zinc-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2"
                     placeholder="Subject "
                     {...register("subject", { required: "true" })}
                   />
@@ -145,7 +145,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     id="comments"
-                    className="form-input w-full py-2 px-3 bg-transparent border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2 textarea h-28"
+                    className="form-input w-full py-2 px-3 bg-transparent border border-inherit dark:border-gray-800 dark:bg-zinc-900 dark:text-slate-200 rounded-xl outline-none focus:border-blue-500/50 dark:focus:border-blue-500/50 focus:ring-0 mt-2 textarea h-28"
                     placeholder="Message "
                     {...register("comment", { required: "true" })}
                   />

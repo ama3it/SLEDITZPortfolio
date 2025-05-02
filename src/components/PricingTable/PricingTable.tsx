@@ -1,8 +1,10 @@
 import List from "./List";
+import { pricingPlans } from "./Pricing";
 import PricingCard from "./PricingCard";
 import PricingCardTwo from "./PricingCardTwo";
 
 const Pricing = () => {
+ 
   return (
     <section className="overflow-hidden my-10" id="pricing">
       <div className="container mx-auto">
@@ -25,43 +27,20 @@ const Pricing = () => {
 
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="-mx-4 flex flex-wrap">
-            <PricingCard
-              type="Basic"
-              price="₹7K"
-              subscription="Month"
-              description="Perfect for editing personal content or hobby projects."
-            >
-              <List>Upto 11 Projects</List>
-              <List>1 revision/Project</List>
-              <List>Fixed Timeline</List>
-              <List>-</List>
-              <List>-</List>
-            </PricingCard>
-
-            <PricingCard
-              type="Standard"
-              price="₹15k"
-              subscription="Month"
-              description="Perfect for semi creator or mid level organization."
-            >
-              <List>Upto 20 Projects</List>
-              <List>Max 5 revision </List>
-              <List>Flexible timeline</List>
-              <List>-</List>
-              <List>-</List>
-            </PricingCard>
-            <PricingCard
-              type="Premium"
-              price="₹28k"
-              subscription="Month"
-              description="Perfect for content creator or large organization."
-            >
-              <List>Upto 90 Projects</List>
-              <List>Unlimited revision</List>
-              <List>Flexible timeline</List>
-              <List>Free consultation</List>
-              <List>Dedicated support</List>
-            </PricingCard>
+            {pricingPlans.map((plan) => (
+              <PricingCard
+                key={plan.type}
+                type={plan.type}
+                price={plan.price}
+                subscription={plan.subscription}
+                description={plan.description}
+                glow={plan.type === "Premium"} // Add this line
+              >
+                {plan.features.map((feature, idx) => (
+                  <List key={idx}>{feature}</List>
+                ))}
+              </PricingCard>
+            ))}
           </div>
         </div>
 

@@ -1,23 +1,27 @@
-type PricingCradProps={
-    children:React.ReactNode
-    description:string
-    price:string
-    type:string
-    subscription:string
-}
+type PricingCradProps = {
+  children: React.ReactNode;
+  description: string;
+  price: string;
+  type: string;
+  subscription: string;
+  glow?: boolean; // Add this line
+};
 
 const PricingCard = ({
-    children,
-    description,
-    price,
-    type,
-    subscription
-   
-  }:PricingCradProps) => {
-    return (
-      <>
-        <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-          <div className="relative z-1 mb-10 overflow-hidden rounded-[10px] border-2 border-stroke  px-8 py-10 shadow-pricing dark:border-dark-3  sm:p-12 lg:px-6 lg:py-10 xl:p-[50px]">
+  children,
+  description,
+  price,
+  type,
+  subscription,
+  glow = false, // Add this line
+}: PricingCradProps) => {
+  return (
+    <>
+      <div className={`w-full px-4 md:w-1/2 lg:w-1/3`}>
+        <div
+          className={`relative z-1 mb-10 overflow-hidden rounded-[10px] border-2 px-8 py-10 shadow-pricing dark:border-dark-3 dark:bg-zinc-900 sm:p-12 lg:px-6 lg:py-10 xl:p-[50px] ${glow ? "glow-border" : "border-stroke"}`}
+        >
+          <div className="bg-white dark:bg-zinc-900 rounded-[8px] p-6 relative z-10">
             <span className="mb-3 block text-lg font-semibold text-primary">
               {type}
             </span>
@@ -293,8 +297,9 @@ const PricingCard = ({
             </div>
           </div>
         </div>
-      </>
-    );
-  };
+      </div>
+    </>
+  );
+};
 
-  export default PricingCard
+export default PricingCard;

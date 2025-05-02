@@ -12,7 +12,7 @@ import Pricing from "./components/PricingTable";
 import Projects from "./components/Projects";
 import Review from "./components/Review";
 import Services from "./components/Services";
-import SocialButton from "./components/SocialButton";
+// import SocialButton from "./components/SocialButton";
 import ThemeToggle from "./components/ThemeToggle";
 import Preloader from "./components/Preloader/Preloader";
 
@@ -31,8 +31,7 @@ const App = () => {
 
   return (
     <>
-     
-      <div className={`font-poppins text-[15px] text-slate-900 dark:text-white dark:bg-slate-900 ${loading ? 'hidden' : ''}`}>
+      <div className={`font-poppins text-[15px] text-black dark:text-white dark:bg-black ${loading ? 'hidden' : ''}`}>
         <Nav />
         <Hero />
         <section className="relative overflow-hidden md:py-24 py-16">
@@ -48,7 +47,7 @@ const App = () => {
           <Contact />
         </section>
         <ThemeToggle />
-        <SocialButton />
+        {/* <SocialButton /> */}
         <BackToTop />
         <Footer />
       </div>

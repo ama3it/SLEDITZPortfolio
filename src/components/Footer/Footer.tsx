@@ -3,8 +3,8 @@ import Logo from "../../assets/img/SlEditz.png";
 import { MdMail, MdWhatsapp } from "react-icons/md";
 const Footer = () => {
   return (
-    <footer className="relative bg-gray-900 overflow-hidden">
-      <div className="py-[30px] px-0 border-t border-slate-800">
+    <footer className="relative bg-black overflow-hidden">
+      <div className="py-[30px] px-0 border-slate-800">
         <div className="container relative text-center">
           <div className="grid lg:grid-cols-12 md:grid-cols-3 grid-cols-1 items-center">
             <div className="lg:col-span-3 md:text-start text-center">
@@ -21,7 +21,7 @@ const Footer = () => {
               <p className="mb-0 text-gray-400">
                 ©2024 SlEditz. Developed with ❤️ by
                 <a
-                  href="https://amamit.in"
+                  href="https://www.linkedin.com/in/ama3it"
                   target="_blank"
                   className="text-reset"
                 >
