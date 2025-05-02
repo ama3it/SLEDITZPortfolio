@@ -34,7 +34,7 @@ const PricingCardTwo = ({
         transition={{ duration: 0.5 }}
         whileHover={{ scale: 1.04, boxShadow: "0 8px 32px rgba(0,0,0,0.15)" }}
       >
-        <div className="relative z-1  overflow-hidden  shadow-pricing dark:bg-zinc-900 sm:p-12 lg:px-6 lg:py-10 xl:p-[50px] ">
+        <div className="relative z-1 overflow-hidden p-10 shadow-pricing dark:bg-zinc-900 sm:p-12 lg:px-6 lg:py-10 xl:p-[50px] ">
           <span className="mb-3 block text-lg font-semibold text-primary">
             {type}
           </span>
